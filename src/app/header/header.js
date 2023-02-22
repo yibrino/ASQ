@@ -8,7 +8,7 @@ function Header() {
   const [toggle, setToggle] = useState(true);
   return (
     <div>
-      <nav class=" text-white px-5 py-4 mx-auto border-b">
+      <nav class=" px-5 py-4 mx-auto border-b">
         <div class="lg:flex lg:flex-wrap lg:items-center">
           <div class="flex  items-center justify-between">
             <Link href="/">

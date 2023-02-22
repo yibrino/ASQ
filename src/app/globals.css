@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-*{
-    background: #0e1630;
+* {
+  background: #0e1630;
+}
+#nav {
+  color: white;
 }
