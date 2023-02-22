@@ -4,7 +4,7 @@ import Header from "./header/header";
 export default function RootLayout({ children }) {
   return (
     <div id="app">
-      <div id="nav" class="sticky top-0 z-50">
+      <div id="nav" class="sticky left-0 right-0 top-0 z-50">
         <Header />
       </div>
       {children}
