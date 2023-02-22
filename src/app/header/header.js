@@ -44,7 +44,7 @@ function Header() {
               <Link
                 key={i}
                 href={href}
-                class="p-2 text-sm font-semibold uppercase transition-colors duration-300 lg:px-3 md:mx-2 hover:text-primary-green"
+                class="p-2 transition-colors duration-300 border-b border-transparent border-solid hover:border-green-600  text-sm font-semibold  hover:border-green-600 uppercase transition-colors duration-300 lg:px-3 md:mx-2 hover:text-primary-green"
               >
                 {name}
               </Link>
