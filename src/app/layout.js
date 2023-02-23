@@ -1,3 +1,4 @@
+import "./globals.css";
 import Header from "./header/header";
 import Footer from "./footer";
 
