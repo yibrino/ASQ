@@ -5,10 +5,10 @@ import Footer from "./footer";
 export default function RootLayout({ children }) {
   return (
     <div class="bg-[#0e1630]">
-      <div class="sticky text-white left-0 right-0 top-0 z-50">
+      <div id="nav" class="sticky text-white left-0 right-0 top-0 z-50">
         <Header />
       </div>
-      {children}
+      <main> {children}</main>
       <Footer id="footer" />
     </div>
   );
