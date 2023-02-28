@@ -1,7 +1,5 @@
-import "./globals.css";
 import Header from "./header/header";
 import Footer from "./footer";
-
 export default function RootLayout({ children }) {
   return (
     <div class="bg-[#0e1630]">
