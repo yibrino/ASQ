@@ -1,38 +1,39 @@
 import React, { useRef, useEffect } from "react";
-
 import { Container } from "reactstrap";
 import classes from "./header.module.css";
-import Link from "next/link";
+import Link from "next/Link";
 
-const NAV__LINK = [
+const menuItems = [
   {
-    path: "/",
-    display: "HOME",
+    link: "/",
+    label: "Home",
   },
   {
-    path: "#about",
-    display: "ABOUT",
+    link: "#about",
+    label: "About",
+  },
+  // {
+  //   link: "#services",
+  //   label: "Services",
+  // },
+  {
+    link: "#portfolio",
+    label: "News",
   },
   {
-    path: "#services",
-    display: "SERVICES",
+    label: 'Certificates',
+    submenu: [
+      { label: 'Basic Certificates', link: "/servicesweb-dev", },
+      { label: 'Intermidate Certificates', link: "/servicesgraphic-design", },
+      { label: 'Advanced  Certificates', link: "/servicesseo", },
+    ],
   },
   {
-    path: "#services",
-    display: "CERTIFICATES",
+    link: "#contact",
+    label: "Contact",
   },
-  {
-    path: "#certificate",
-    display: "ADVANCED CERTIFICATES",
-  },
-  {
-    path: "#new and events",
-    display: "NEWs AND EVENTS",
-  },
-  {
-    path: "#contact",
-    display: "CONTACT US",
-  },
+
+
 ];
 
 const Header = () => {
@@ -67,7 +68,7 @@ const Header = () => {
           {/* ======== navigation logo ======== */}
           <div className={`${classes.logo}`}>
             <h1>
-              <span>A</span>SQ
+              <span>Persimmon & Helios</span> ASQ Engineering Solutions
             </h1>
           </div>
 
@@ -78,15 +79,43 @@ const Header = () => {
             onClick={toggleMenu}
           >
             <div className={`${classes.nav__menu}`}>
-              {NAV__LINK.map((item, index) => (
-                <Link href={item.path} key={index}>
-                  {item.display}
-                </Link>
-              ))}
-
            
+       
+      {menuItems.map((item, index) => (
+        <li key={index} className={`${classes.menuItem} ${item.submenu && classes.hasSubmenu}`}>
+          {item.link ? (
+            <Link href={item.link}>
+              {item.label}
+            </Link>
+          ) : (
+            <span>{item.label}</span>
+          )}
+          {item.submenu && (
+            <ul className={classes.submenu}>
+              {item.submenu.map((subItem, subIndex) => (
+                <li key={subIndex} className={classes.submenuItem}>
+                  <Link href={subItem.link}>
+                    {subItem.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          )}
+          {/* {item.submenu && <span className={`${classes.arrow} ${classes.arrowOpen}`} />}
+          {!item.submenu && <span className={classes.arrow} />} */}
+        </li>
+      ))}
+
+
+              <div className={`${classes.nav__right}`}>
+                <p className=" d-flex align-items-center gap-2 mb-0">
+                  {" "}
+                  <i className="ri-phone-line"></i> +1 941 281 6819{" "}
+                </p>
+              </div>
             </div>
           </div>
+ 
 
           <span className={`${classes.mobile__menu}`}>
             <i className="ri-menu-line" onClick={toggleMenu}></i>
@@ -96,5 +125,7 @@ const Header = () => {
     </header>
   );
 };
+
+
 
 export default Header;

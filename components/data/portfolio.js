@@ -1,8 +1,8 @@
 const portfolio = [
   {
     id: "01",
-    title: "Transportation Mobile App",
-    img: "/images/portfolio-01.jpg",
+    title: "POKA-YOKE-SYSTEMS",
+    img: "/images/yoke.jpg",
     category: "Mobile App",
     keyword: ["Mobile", "App", "UI-UX"],
     liveUrl: "#",
@@ -10,8 +10,8 @@ const portfolio = [
 
   {
     id: "02",
-    title: "Workout Tracker App",
-    img: "/images/portfolio-02.jpg",
+    title: "DMAIC",
+    img: "/images/dmaic.jpg",
     category: "Mobile App",
     keyword: ["Mobile", "App", "UI-UX"],
     liveUrl: "#",
@@ -19,8 +19,8 @@ const portfolio = [
 
   {
     id: "03",
-    title: "Fashion Shopping App",
-    img: "/images/portfolio-03.jpg",
+    title: "8D Problem Solving Methodoloy ",
+    img: "/images/8d.jpg",
     category: "Mobile App",
     keyword: ["Mobile", "App", "UI-UX"],
     liveUrl: "#",
@@ -28,8 +28,8 @@ const portfolio = [
 
   {
     id: "04",
-    title: "Fashion Shopping App",
-    img: "/images/portfolio-04.jpg",
+    title: "Design of experiments",
+    img: "/images/DoE.jpg",
     category: "Mobile App",
     keyword: ["Mobile", "App", "UI-UX"],
     liveUrl: "#",
@@ -37,8 +37,8 @@ const portfolio = [
 
   {
     id: "05",
-    title: "Furniture Shopping App",
-    img: "/images/portfolio-05.jpg",
+    title: "Engineering Design Process",
+    img: "/images/edp.jpg",
     category: "Mobile App",
     keyword: ["Mobile", "App", "UI-UX"],
     liveUrl: "#",
@@ -46,26 +46,26 @@ const portfolio = [
 
   {
     id: "06",
-    title: "Travel  App",
-    img: "/images/portfolio-06.jpg",
+    title: "Aerospace QMS",
+    img: "/images/aerospace.jpg",
     category: "Mobile App",
     keyword: ["Mobile", "App", "UI-UX"],
     liveUrl: "#",
   },
 
-  {
-    id: "07",
-    title: "Portfolio Website",
-    img: "/images/portfolio-07.png",
-    category: "Web Design",
-    keyword: ["Web", "Web design", "UI-UX"],
-    liveUrl: "#",
-  },
+  // {
+  //   id: "Quality Management System",
+  //   title: "Portfolio Website",
+  //   img: "/images/portfolio-07.jpg",
+  //   category: "Web Design",
+  //   keyword: ["Web", "Web design", "UI-UX"],
+  //   liveUrl: "#",
+  // },
 
   {
     id: "08",
-    title: "Restaurant Website",
-    img: "/images/portfolio-08.png",
+    title: "Internal Audit",
+    img: "/images/internalaudit.jpg",
     category: "Web Design",
     keyword: ["Web", "Web design", "UI-UX"],
     liveUrl: "#",
@@ -73,8 +73,24 @@ const portfolio = [
 
   {
     id: "09",
-    title: "Agency Website",
-    img: "/images/portfolio-09.png",
+    title: "Quality Manegement",
+    img: "/images/qualitymanagement.jpg",
+    category: "Web Design",
+    keyword: ["Web", "Web design", "UI-UX"],
+    liveUrl: "#",
+  },
+  {
+    id: "10",
+    title: "ISO 9001",
+    img: "/images/iso.jpg",
+    category: "Web Design",
+    keyword: ["Web", "Web design", "UI-UX"],
+    liveUrl: "#",
+  },
+  {
+    id: "11",
+    title: "ANSI National Accredition Board",
+    img: "/images/asq.jpg",
     category: "Web Design",
     keyword: ["Web", "Web design", "UI-UX"],
     liveUrl: "#",

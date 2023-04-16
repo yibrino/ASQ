@@ -1,15 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import Link from "next/link";
 import SectionSubtitle from "./SectionSubtitle";
 import Image from "next/image";
-
+import Link from "next/Link";
 import img01 from "../../public/images/img-01.jpg";
 import img02 from "../../public/images/img-02.jpg";
 import img03 from "../../public/images/img-03.jpg";
 import img04 from "../../public/images/hero.jpg";
-
+import Homepage from "../circularimage/VideoComponent ";
 import classes from "../../styles/about.module.css";
+import ReadMore from '../../components/ReadMore/ReadMore'
 
 const About = () => {
   return (
@@ -17,39 +17,32 @@ const About = () => {
       <Container>
         <Row>
           <Col lg="6" className={`${classes.about__content}`}>
-            {/* <SectionSubtitle subtitle="About me" />
-            <h3 className="mt-4">I&apos;m here</h3> */}
-            <h3 className="mb-4">Lean Six Sigma Certification Courses</h3>
+            <SectionSubtitle subtitle="Yohannes Yebabe Tesfay | Professor" />
+            {/* <h3 className="mt-4">I am NPI and Quality Engineering Director</h3> */}
+            <h3 className="mb-4"></h3>
+            <div className={`${classes.profile__image}`}>
+  <img src="/image10.png" alt="Profile Image"/>
+</div>
+   
             <p>
-            Enterprises employing Six Sigma are saving billions of dollars in their revenue spend. Six Sigma
-is a methodology that employs statistical analysis to improve business processes and eliminate
-defects.  Originally implemented by Motorola in the 1980s and later popularized by GE&#39;s Jack
-Welch, Six Sigma gained a lot of prominences worldwide. Six Sigma is nothing but reducing
-process variation to 3.4 defects per million opportunities. It is one of the best methodologies
-which focuses on business process improvement of doing things rather than quality
-improvement, which is a generalized perception.
- 
-
-Lean Six Sigma combines both Lean and Six Sigma. It is best of both the worlds where Lean,
-which is a tool-based methodology that uses various quality tools to achieve the desired
-outcomes and Six Sigma the quality philosophy which underpins every action in an organization
-to follow certain parameters based on statistical evidence.
+  
+            Yohannes Yebabe Tesfay is NPI and Quality Engineering Director at HPMA. He is the innovator of many equations, models and applied theories, including the hyper hybrid coordination. He is a Lean Six Sigma Black Belt, IATF, and ISO 9000 professional.
             </p>
 
-            <div className=" d-flex align-items-center gap-5">
+            {/* <div className=" d-flex align-items-center gap-5">
               <div>
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  White belt
+                  Quality Design for New Product Introduction
                 </h6>
 
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  Yellow belt
+                  Process Capability Analysis
                 </h6>
               </div>
 
@@ -58,34 +51,17 @@ to follow certain parameters based on statistical evidence.
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  Green belt
+                  Quality in the Context of Engineering
                 </h6>
 
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  Black belt
+                  Engineering Sampling Standards and Plans
                 </h6>
-             
               </div>
-              <div>
-                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
-                  <span className={`${classes.about__icon}`}>
-                    <i className="ri-checkbox-circle-line"></i>
-                  </span>
-                  Master black belt
-                </h6>
-
-                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
-                  <span className={`${classes.about__icon}`}>
-                    <i className="ri-checkbox-circle-line"></i>
-                  </span>
-                  Champion
-                </h6>
-             
-              </div>
-            </div>
+            </div> */}
 
             {/* <div className="mt-5">
               <button className="primary__btn">
@@ -96,40 +72,33 @@ to follow certain parameters based on statistical evidence.
                 <Link href="#">Download CV</Link>
               </button>
             </div> */}
+              {/* <ReadMore/> */}
+              <a
+            href="https://www.researchgate.net/profile/Yohannes-Yebabe-Tesfay"
+            target="_blank" className={classes.link}
+          >
+       https://www.researchgate.net/profile/Yohannes-Yebabe-Tesfay
+          </a>
+          <a
+            href="https://www.flcompanyregistry.com/companies/persimmon-helois-asq-engineering-solutions-llc/
+            "
+            target="_blank" className={classes.link}
+          >
+            <br></br>
+https://www.flcompanyregistry.com/companies/persimmon-helois-asq-engineering-solutions-llc/
+          </a>
+          <br></br>
+          <a
+            href="https://www.bizapedia.com/fl/persimmon-and-helois-asq-engineering-solutions-llc.html
+            "
+            target="_blank" className={classes.link}
+          >
+https://www.bizapedia.com/fl/persimmon-and-helois-asq-engineering-solutions-llc.html
+          </a>
           </Col>
 
           <Col lg="6">
-            <div
-              className={`${classes.about__img__gallery} d-flex gap-4 justify-content-end`}
-            >
-              <div className=" d-flex flex-column mb-3">
-                <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
-                >
-                  <Image src={img01} alt="about-img" />
-                </div>
-
-                <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
-                >
-                  <Image src={img02} alt="about-img" />
-                </div>
-              </div>
-
-              <div className=" d-flex flex-column mb-3">
-                <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
-                >
-                  <Image src={img03} alt="about-img" />
-                </div>
-
-                <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
-                >
-                  <Image src={img04} alt="about-img" />
-                </div>
-              </div>
-            </div>
+          <Homepage/>
           </Col>
         </Row>
       </Container>

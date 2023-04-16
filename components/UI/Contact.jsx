@@ -1,10 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import Link from "next/link";
 import SectionSubtitle from "./SectionSubtitle";
 import classes from "../../styles/contact.module.css";
 import Form from "./Form";
-
+import Link from "next/Link";
 const Contact = () => {
   return (
     <section id="contact" className={`${classes.contact}`}>
@@ -14,22 +13,16 @@ const Contact = () => {
             <SectionSubtitle subtitle="Contact me" />
             <h3 className="mt-4 mb-4">Contact with me</h3>
             <p>
-           Those with  A minimum of BSc degree in
-Electrical engineering
-Civil engineering
-Mechanical engineering
-Industrial engineering
-Material engineering
-Information/electronics engineering or related fields with an experience at least 2 years in
-manufacturing, Quality control, production or operational engineering are required to contact professsor Yohanness Tesfay.
-            </p>
+            Those with A minimum of BSc degree in Electrical engineering Civil engineering Mechanical engineering Industrial engineering Material engineering Information/electronics engineering or related fields with an experience at least 2 years in manufacturing, Quality control, production or operational engineering are required to contact professsor Yohanness Tesfay.            </p>
 
             <ul className={`${classes.contact__info__list}`}>
               <li className={`${classes.info__item}`}>
                 <span>
                   <i className="ri-map-pin-line"></i>
                 </span>
-                <p>Yoannes Tesfay</p>
+                <p>
+5344 ROCKY COAST PL PALMETTO, FL 34221
+</p>
               </li>
               <li className={`${classes.info__item}`}>
                 <span>
@@ -41,7 +34,7 @@ manufacturing, Quality control, production or operational engineering are requir
                 <span>
                   <i className="ri-phone-line"></i>
                 </span>
-                <p>+000000000000</p>
+                <p>+1 941 281 6819</p>
               </li>
             </ul>
 

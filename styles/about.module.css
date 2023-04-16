@@ -17,6 +17,14 @@
 .about__img__box {
   width: 200px !important;
 }
+.profile__image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
 
 @media only screen and (max-width: 992px) {
   .about__img__gallery {

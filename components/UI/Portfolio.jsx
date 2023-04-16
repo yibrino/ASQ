@@ -35,8 +35,8 @@ const Portfolio = () => {
       <Container>
         <Row>
           <Col lg="6" md="6" className="mb-5">
-            <SectionSubtitle subtitle=" Our Projects" />
-            <h4 className="mt-4">Some of our project works</h4>
+            {/* <SectionSubtitle subtitle=" My portfolio" /> */}
+            {/* <h4 className="mt-4">Some of my distinguished works</h4> */}
           </Col>
 
           <Col lg="6" md="6">
@@ -47,7 +47,7 @@ const Portfolio = () => {
                 } secondary__btn text-white`}
                 onClick={() => setFilter("Mobile App")}
               >
-                Mobile App
+                Gallery 1
               </button>
               <button
                 className={`${
@@ -55,7 +55,7 @@ const Portfolio = () => {
                 } secondary__btn text-white`}
                 onClick={() => setFilter("Web Design")}
               >
-                Web Design
+                Gallery 2
               </button>
             </div>
           </Col>

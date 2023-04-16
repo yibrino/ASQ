@@ -1,35 +1,29 @@
 import React from "react";
+import Link from "next/Link";
 
 import { Container, Row, Col } from "reactstrap";
 import classes from "./footer.module.css";
-import Link from "next/link";
+
 const NAV__LINK = [
   {
     path: "/",
-    display: "HOME",
+    display: "Home",
   },
   {
     path: "#about",
-    display: "ABOUT",
+    display: "About",
   },
   {
     path: "#services",
-    display: "SERVICES",
+    display: "News",
   },
   {
-    path: "#certificates",
-    display: "CERTIFICATES",
-  },{
-    path: "#ADVANCED CERTIFICATES",
-    display: "ADVANCED CERTIFICATES",
-  },
-  {
-    path: "#new and events",
-    display: "NEWs AND EVENTS",
+    path: "#portfolio",
+    display: "Certificate",
   },
   {
     path: "#contact",
-    display: "CONTACT US",
+    display: "Contact",
   },
 ];
 
@@ -42,7 +36,7 @@ const Footer = () => {
       <Container>
         <Row>
           {/* ========= footer top =========== */}
-          <Col lg="12" className={`${classes.footer__top}`}>
+          <Col lg="6" className={`${classes.footer__top}`}>
             <div className={`${classes.nav__menu}`}>
               {NAV__LINK.map((item, index) => (
                 <Link href={item.path} key={index}>
@@ -52,16 +46,17 @@ const Footer = () => {
             </div>
           </Col>
 
-         
+          <Col lg="6" className={`${classes.footer__top}`}>
+            <div className={`${classes.footer__creator}`}>
+              <h6>Created by Muhib</h6>
+            </div>
+          </Col>
 
           {/* ========= footer bottom ========= */}
           <Col lg="12">
             <div className={`${classes.footer__copyright}`}>
               <p>
-                &copy; Copyright {year} - certification and
-
-consultancy center in Ethiopia. All right
-                reserved.{" "}
+                &copy; Copyright {year} -  certification and consultancy center in Ethiopia. All right reserved.{" "}
               </p>
             </div>
           </Col>

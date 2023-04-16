@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
 import SectionSubtitle from "./SectionSubtitle";
-import network from "../../public/images/vission_mission.png";
+import network from "../../public/images/Connected world.jpg";
 import Slider from "react-slick";
 import classes from "../../styles/testimonial.module.css";
 
@@ -26,7 +26,7 @@ const Testimonial = () => {
           </Col>
 
           <Col lg="6" md="6">
-            <SectionSubtitle subtitle="Vision, Mission, and Goals" />
+            <SectionSubtitle subtitle="Testimonials" />
             {/* <h4 className="mt-4 mb-5">What my client says</h4> */}
 
             <Slider {...settings}>
@@ -34,22 +34,20 @@ const Testimonial = () => {
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src="/images/profile.jpg"
+                    src="/images/hero.jpg"
                     width="50"
                     height="50"
                     className=" rounded-2"
                   />
 
                   <div>
-                    <h6>Our</h6>
-                    <h6>Vission</h6>
+                    <h6>Yibrah Mehari | Second Batch </h6>
+                    <h6> Software Engineer|Network Administrator</h6>
                   </div>
                 </div>
 
                 <p>
-                is to become among the leading training centers of Six sigma ,8D model
-and DFMEA/PFMEA in academic excellence , research, publications and community services
-to Africa and contribute to the manufacturing and service sector in Africa.
+                Advanced engineering certificates in quality compliance cover topics such as quality control, statistical process control, risk management, and Six Sigma methodologies. These certificates can equip you with the necessary knowledge and skills to develop and implement effective quality management systems, improve operational efficiency, and drive continuous improvement initiatives..
                 </p>
               </div>
 
@@ -57,22 +55,20 @@ to Africa and contribute to the manufacturing and service sector in Africa.
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src="/images/profile.jpg"
+                    src="/images/hero.jpg"
                     width="50"
                     height="50"
                     className=" rounded-2"
                   />
 
-<div>
-                    <h6>Our</h6>
-                    <h6>Mission</h6>
+                  <div>
+                    <h6>girmay godifey | First Batch</h6>
+                    <h6>Mechanical Engineer</h6>
                   </div>
                 </div>
 
                 <p>
-                is to offer online course that is accessible to the larger society
-through reasonable tuition focusing on quality and standards to help African manufacturers to
-work smarter, to compete and to prosper
+                Advanced engineering certificates in quality compliance cover topics such as quality control, statistical process control, risk management, and Six Sigma methodologies. These certificates can equip you with the necessary knowledge and skills to develop and implement effective quality management systems, improve operational efficiency, and drive continuous improvement initiatives.
                 </p>
               </div>
 
@@ -80,19 +76,22 @@ work smarter, to compete and to prosper
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src="/images/profile.jpg"
+                    src="/images/hero.jpg"
                     width="50"
                     height="50"
                     className=" rounded-2"
                   />
-<div>
-                    <h6>Our</h6>
-                    <h6>Goal</h6>
+
+                  <div>
+                    <h6>Mulugeta Ale | Second Batch</h6>
+                    <h6>Chemical Engineer
+
+| Norwegian University of Science and Technology  
+| Trondheim, Norway</h6>
                   </div>
                 </div>
                 <p>
-                In order to meet and exceed the quality and standard requirements of students and stakeholders,
-the goals of 
+                Advanced engineering certificates in quality compliance cover topics such as quality control, statistical process control, risk management, and Six Sigma methodologies. These certificates can equip you with the necessary knowledge and skills to develop and implement effective quality management systems, improve operational efficiency, and drive continuous improvement initiatives..
                 </p>
               </div>
             </Slider>
