@@ -1,15 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import SectionSubtitle from "./SectionSubtitle";
-import Image from "next/image";
-import Link from "next/Link";
-import img01 from "../../public/images/img-01.jpg";
-import img02 from "../../public/images/img-02.jpg";
-import img03 from "../../public/images/img-03.jpg";
-import img04 from "../../public/images/hero.jpg";
+
+
 import Homepage from "../circularimage/VideoComponent ";
 import classes from "../../styles/about.module.css";
-import ReadMore from '../../components/ReadMore/ReadMore'
+
 
 const About = () => {
   return (
