@@ -18,7 +18,7 @@ const Hero = () => {
               {/* <h2 className="mt-3 mb-3">Empowering engineers through certification and consultancy services</h2> */}
               {/* <h5 className="mb-4">Frontend Developer</h5> */}
               <p>
-              Our team of highly qualified experts provides tailored solutions that are designed to meet your unique needs and help you achieve your goals. Whether you are looking to expand your skills, advance your career, or improve your organization's performance, we have the expertise to guide you every step of the way.
+              Our team of highly qualified experts provides tailored solutions that are designed to meet your unique needs and help you achieve your goals. Whether you are looking to expand your skills, advance your career, or improve your organizations performance, we have the expertise to guide you every step of the way.
               </p>
               <div className={`${classes.services__container}`}>
           
