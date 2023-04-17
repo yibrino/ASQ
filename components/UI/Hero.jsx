@@ -3,7 +3,7 @@ import SectionSubtitle from "./SectionSubtitle";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
          
-import heroImg from "../../public/images/hero2.jpg";
+import heroImg from "../../public/images/image2.webp";
 import classes from "../../styles/hero.module.css";
 import CustomizedButton from '../common/button/CustomizedButton'
 const Hero = () => {
