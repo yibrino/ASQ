@@ -1,6 +1,7 @@
 import styles from "./affiliateCompanies.module.css";
 import SectionSubtitle from "../UI/SectionSubtitle";
 
+
 const CompanyCard = ({ logo, name, description, link }) => {
   return (
     <div className={styles.card}>
@@ -9,7 +10,7 @@ const CompanyCard = ({ logo, name, description, link }) => {
 
       {/* <h3>{name}</h3> */}
       <p className={styles.description}>{description}</p>
-      <a className={styles.link} href={link} target="_blank" rel="noopener noreferrer">
+      <a className={styles.link} href={link} target="_blank" rel=" noreferrer">
         Website
       </a>
     </div>

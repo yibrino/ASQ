@@ -70,6 +70,7 @@ const About = () => {
               <a
             href="https://www.researchgate.net/profile/Yohannes-Yebabe-Tesfay"
             target="_blank" className={classes.link}
+            rel="noreferrer"
           >
        https://www.researchgate.net/profile/Yohannes-Yebabe-Tesfay
           </a>
@@ -77,6 +78,7 @@ const About = () => {
             href="https://www.flcompanyregistry.com/companies/persimmon-helois-asq-engineering-solutions-llc/
             "
             target="_blank" className={classes.link}
+            rel="noreferrer"
           >
             <br></br>
 https://www.flcompanyregistry.com/companies/persimmon-helois-asq-engineering-solutions-llc/
@@ -86,6 +88,7 @@ https://www.flcompanyregistry.com/companies/persimmon-helois-asq-engineering-sol
             href="https://www.bizapedia.com/fl/persimmon-and-helois-asq-engineering-solutions-llc.html
             "
             target="_blank" className={classes.link}
+            rel="noreferrer"
           >
 https://www.bizapedia.com/fl/persimmon-and-helois-asq-engineering-solutions-llc.html
           </a>
