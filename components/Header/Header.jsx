@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { Container } from "reactstrap";
 import classes from "./header.module.css";
-import NextLink from "next/Link";
+import NextLink from 'next/Link';
 
 const menuItems = [
   {
