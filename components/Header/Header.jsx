@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { Container } from "reactstrap";
 import classes from "./header.module.css";
-import Link from "next/Link";
+import NextLink from "next/Link";
 
 const menuItems = [
   {
@@ -84,9 +84,9 @@ const Header = () => {
       {menuItems.map((item, index) => (
         <li key={index} className={`${classes.menuItem} ${item.submenu && classes.hasSubmenu}`}>
           {item.link ? (
-            <Link href={item.link}>
+            <NextLink  href={item.link}>
               {item.label}
-            </Link>
+            </NextLink >
           ) : (
             <span>{item.label}</span>
           )}
@@ -94,9 +94,9 @@ const Header = () => {
             <ul className={classes.submenu}>
               {item.submenu.map((subItem, subIndex) => (
                 <li key={subIndex} className={classes.submenuItem}>
-                  <Link href={subItem.link}>
+                  <NextLink  href={subItem.link}>
                     {subItem.label}
-                  </Link>
+                  </NextLink >
                 </li>
               ))}
             </ul>

@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/Link";
 
+
 import { Container, Row, Col } from "reactstrap";
 import classes from "./footer.module.css";
 
