@@ -19,7 +19,7 @@ const NAV__LINK = [
   },
   {
     path: "#portfolio",
-    display: "Certificate",
+    display: "Certificates",
   },
   {
     path: "#contact",

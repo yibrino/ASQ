@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import SectionSubtitle from "./SectionSubtitle";
-
-
 import Homepage from "../circularimage/VideoComponent ";
 import classes from "../../styles/about.module.css";
 

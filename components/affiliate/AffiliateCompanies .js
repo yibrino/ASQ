@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "reactstrap";
-import styles from "./affiliateCompanies.module.css";
 import SectionSubtitle from "../UI/SectionSubtitle";
 import CompanyCard from "./CompanyCard ";
 
